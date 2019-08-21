@@ -161,8 +161,11 @@ class Analyzer
 
         foreach($this->statuses as $code => $value) {
             $key = substr($code, 0, 1) . 'x';
-            $results[$key] = [];
-
+            
+            if(!array_key_exists($key, $results)) {
+                $results[$key] = [];
+            }
+            
             if(array_key_exists('total', $results[$key])) {
                 $results[$key]['total'] += $value['total'];    
             } else {
