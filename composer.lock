@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9f34f1fe5049cc32fc88ad84fd40a60c",
+    "packages": [
+        {
+            "name": "benmorel/apache-log-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BenMorel/apache-log-parser.git",
+                "reference": "c60336ac25f238c16b7cbf67328c1d84a53192b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BenMorel/apache-log-parser/zipball/c60336ac25f238c16b7cbf67328c1d84a53192b2",
+                "reference": "c60336ac25f238c16b7cbf67328c1d84a53192b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "2.*",
+                "phpunit/phpunit": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BenMorel\\ApacheLogParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP library to parse Apache log files",
+            "keywords": [
+                "apache",
+                "log",
+                "parse",
+                "parser"
+            ],
+            "time": "2019-02-11T12:53:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "benmorel/apache-log-parser": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

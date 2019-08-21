@@ -1,0 +1,19 @@
+{
+    "name": "jcrawford/godaddy",
+    "description": "Coding Test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joseph Crawford",
+            "email": "info@josephcrawford.com"
+        }
+    ],
+    "require": {
+        "benmorel/apache-log-parser": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoDaddy\\": "lib/"
+        }
+    }
+}
